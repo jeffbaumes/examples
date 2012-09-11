@@ -53,7 +53,7 @@ d3.csv("resources/data/wgEncodeGencodeCompV12-simple.csv", function(data) {
       .data(chromosomes)
     .enter().append("text")
       .attr("x", 10)
-      .attr("y", function(d, i) { return margin + delta/2 + i*delta; })
+      .attr("y", function(d, i) { return margin + 25 + i*delta; })
       .text(function(d) { return d.chromosome.substring(3); });
 
   function chromSetup(chrom) {
