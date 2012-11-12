@@ -1,0 +1,10 @@
+.field-selector {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.renderer, .content, body {
+   margin: 0;
+   padding: 0;
+}
